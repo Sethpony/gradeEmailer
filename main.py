@@ -1,11 +1,11 @@
 import smtplib
 
 username_email = 'waddlewaddleanon@gmail.com'
-user_password ='Punch123!'
+user_password ='passwordhere'
 
 sent_from = username_email
 
-sent_to = ['itzelpz45@gmail.com', 'tehsethinator@gmail.com']
+sent_to = ['email1', 'email2']
 subject = 'Testing Testing'
 body ='hi testing this automated email'
 
