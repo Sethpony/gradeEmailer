@@ -4,7 +4,7 @@ username_email = 'waddlewaddleanon@gmail.com'
 user_password ='passwordhere'
 
 sent_from = username_email
-
+git 
 sent_to = ['email1', 'email2']
 subject = 'Testing Testing'
 body ='hi testing this automated email'
