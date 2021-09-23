@@ -1,7 +1,4 @@
 alabaster==0.7.12
-anaconda-client==1.7.2
-anaconda-navigator==1.10.0
-anaconda-project==0.8.3
 argh==0.26.2
 argon2-cffi @ file:///C:/ci/argon2-cffi_1596828585465/work
 asn1crypto @ file:///tmp/build/80754af9/asn1crypto_1596577642040/work
@@ -29,7 +26,7 @@ brotlipy==0.7.0
 certifi==2020.6.20
 cffi @ file:///C:/ci/cffi_1600699246375/work
 chardet==3.0.4
-click==7.1.2
+click==7.0
 cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1598884132938/work
 clyent==1.2.2
 colorama==0.4.4
