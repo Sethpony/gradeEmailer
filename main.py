@@ -1,14 +1,16 @@
 import smtplib
+import pandas as pd
+import json
 
 # create functions
 
-sent_from = username_email
-sent_to = ['email1', 'email2']
-subject = 'Testing Testing'
-body ='hi testing this automated email'
+# sent_from = username_email
+# sent_to = ['email1', 'email2']
+# subject = 'Testing Testing'
+# body ='hi testing this automated email'
 
 
-def createEmailBody():
+def createEmailBody(sent_from, sent_to, subject, body):
     email_text = '''\
     From: %s
     To: %s
@@ -36,7 +38,24 @@ def sendEmail():
 #create function that returns the variables that will be put into the email
 #this will be looped
 
-def messageVariables():
-    #store information in dictionary
-    #then use the key from the dictionary to return the value for the key:value pair
+# def messageVariables():
+#     #store information in dictionary
+#     #then use the key from the dictionary to return the value for the key:value pair
+
+
+def csvtoDict():
+    csv_file = pd.read_csv("C:/Users/spbac/PycharmProjects/gradeEmailer/gradeEmailer/grade_emailer_sheet.csv")
+    to_dict = csv_file.to_dict()
+    print(to_dict)
+
+    with open("C:/Users/spbac/PycharmProjects/gradeEmailer/gradeEmailer/shared_folder/storage.json", "w") as json_file:
+        json.dump(to_dict, json_file, indent=2)
+
+
+csvtoDict()
+    # I think we should store the csv_file as a dictionary
+
+    # https://stackoverflow.com/questions/26716616/convert-a-pandas-dataframe-to-a-dictionary
+
+    # iterate through dictionary to send the email
 

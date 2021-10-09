@@ -1,0 +1,74 @@
+{
+  "\ufeffstudent_id": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4
+  },
+  "student_first": {
+    "0": "buddy",
+    "1": "timmy",
+    "2": "jill",
+    "3": "hannah"
+  },
+  "student_last": {
+    "0": "holly",
+    "1": "nook",
+    "2": "smith",
+    "3": "party"
+  },
+  "parent_last": {
+    "0": "holly",
+    "1": "nook",
+    "2": "smith",
+    "3": "party"
+  },
+  "parent_first": {
+    "0": "teddy",
+    "1": "jolly",
+    "2": "tony",
+    "3": "patty"
+  },
+  "parent_email": {
+    "0": "tehsethinator@gmail.com",
+    "1": "tehsethinator@gmail.com",
+    "2": "tehsethinator@gmail.com",
+    "3": "tehsethinator@gmail.com"
+  },
+  "email_subject": {
+    "0": "grades eh - testing 1 ",
+    "1": "grades eh - testing 2",
+    "2": "grades eh - testing 3",
+    "3": "grades eh - testing 4"
+  },
+  "grade_subject": {
+    "0": "U.S. History",
+    "1": "U.S. History",
+    "2": "U.S. History",
+    "3": "U.S. History"
+  },
+  "Message": {
+    "0": "message1",
+    "1": "message2",
+    "2": "message3",
+    "3": "message4"
+  },
+  "current_grade": {
+    "0": "83%",
+    "1": "69%",
+    "2": "96%",
+    "3": "40%"
+  },
+  "number_missing_assignments": {
+    "0": 2,
+    "1": 0,
+    "2": 12,
+    "3": 20
+  },
+  "additional_notes": {
+    "0": NaN,
+    "1": NaN,
+    "2": NaN,
+    "3": NaN
+  }
+}
