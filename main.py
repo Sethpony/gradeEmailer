@@ -10,13 +10,17 @@ import json
 # body ='hi testing this automated email'
 
 
-def createEmailBody(sent_from, sent_to, subject, body):
+def createEmailMessage(sent_from, parent_email, subject_email, parent_first, parent_last, student_first, student_last, grade, subject_class):
     email_text = '''\
     From: %s
     To: %s
     Subject: %s
-    %s
-    ''' %(sent_from, sent_to, subject, body)
+    Hi %s %s your student %s %s, is receiving this grade:%s in this subject:%s. They are missing:%s assignments
+    Thank you for reading
+    
+    Best, 
+    Teacher
+    ''' %(sent_from, parent_email, subject_email, parent_first, parent_last, student_first, student_last, grade, subject_class)
 
     return email_text
 
