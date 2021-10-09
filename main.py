@@ -44,7 +44,7 @@ def sendEmail():
 
 
 def csvtoDict():
-    csv_file = pd.read_csv("C:/Users/spbac/PycharmProjects/gradeEmailer/gradeEmailer/grade_emailer_sheet.csv")
+    csv_file = pd.read_csv("C:/Users/spbac/PycharmProjects/gradeEmailer/gradeEmailer/grade_emailer_sheet.txt", sep='\t')
     to_dict = csv_file.to_dict()
     print(to_dict)
 
