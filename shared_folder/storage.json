@@ -1,4 +1,10 @@
 {
+  "my_email": {
+    "0": "tehsethinator@gmail.com",
+    "1": "tehsethinator@gmail.com",
+    "2": "tehsethinator@gmail.com",
+    "3": "tehsethinator@gmail.com"
+  },
   "student_id": {
     "0": 1,
     "1": 2,
@@ -47,17 +53,11 @@
     "2": "U.S. History",
     "3": "U.S. History"
   },
-  "Message": {
-    "0": "message1",
-    "1": "message2",
-    "2": "message3",
-    "3": "message4"
-  },
   "current_grade": {
-    "0": "83%",
-    "1": "69%",
-    "2": "96%",
-    "3": "40%"
+    "0": "A",
+    "1": "A",
+    "2": "C",
+    "3": "F"
   },
   "number_missing_assignments": {
     "0": 2,
