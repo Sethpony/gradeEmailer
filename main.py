@@ -4,7 +4,6 @@ import json
 
 
 def createEmailMessage(sent_from, parent_email, subject_email, parent_first, parent_last, student_first, student_last, grade, subject_class, missing_assignments):
-
     email_text = '''\
     From: %s
     To: %s
@@ -83,16 +82,16 @@ for x in range(len(json_dict['student_id'])):
         "missing_assignment": json_dict['number_missing_assignments'][x]
     }
 
-    print(data_dict['sent_from'])
-    print(data_dict['parent_email'])
-    print(data_dict['subject_email'])
-    print(data_dict['parent_first'])
-    print(data_dict['parent_last'])
-    print(data_dict['student_first'])
-    print(data_dict['student_last'])
-    print(data_dict['grade'])
-    print(data_dict['subject_class'])
-    print(data_dict['missing_assignment'])
+    # print(data_dict['sent_from'])
+    # print(data_dict['parent_email'])
+    # print(data_dict['subject_email'])
+    # print(data_dict['parent_first'])
+    # print(data_dict['parent_last'])
+    # print(data_dict['student_first'])
+    # print(data_dict['student_last'])
+    # print(data_dict['grade'])
+    # print(data_dict['subject_class'])
+    # print(data_dict['missing_assignment'])
 
     email_message = createEmailMessage(data_dict['sent_from'],data_dict['parent_email'],data_dict['subject_email'],data_dict['parent_first'],data_dict['parent_last'], data_dict['student_first'], data_dict['student_last'], data_dict['grade'], data_dict['subject_class'],data_dict['missing_assignment'])
     print(email_message)
