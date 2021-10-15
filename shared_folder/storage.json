@@ -1,74 +1,38 @@
 {
   "my_email": {
-    "0": "tehsethinator@gmail.com",
-    "1": "tehsethinator@gmail.com",
-    "2": "tehsethinator@gmail.com",
-    "3": "tehsethinator@gmail.com"
+    "0": "waddlewaddleanonanon@gmail.com"
   },
   "student_id": {
-    "0": 1,
-    "1": 2,
-    "2": 3,
-    "3": 4
+    "0": 1
   },
   "student_first": {
-    "0": "buddy",
-    "1": "timmy",
-    "2": "jill",
-    "3": "hannah"
+    "0": "Alex"
   },
   "student_last": {
-    "0": "holly",
-    "1": "nook",
-    "2": "smith",
-    "3": "party"
+    "0": "Smith"
   },
   "parent_last": {
-    "0": "holly",
-    "1": "nook",
-    "2": "smith",
-    "3": "party"
+    "0": "Smith"
   },
   "parent_first": {
-    "0": "teddy",
-    "1": "jolly",
-    "2": "tony",
-    "3": "patty"
+    "0": "Max"
   },
   "parent_email": {
-    "0": "tehsethinator@gmail.com",
-    "1": "tehsethinator@gmail.com",
-    "2": "tehsethinator@gmail.com",
-    "3": "tehsethinator@gmail.com"
+    "0": "itzelpz45@gmail.com"
   },
   "email_subject": {
-    "0": "grades eh - testing 1 ",
-    "1": "grades eh - testing 2",
-    "2": "grades eh - testing 3",
-    "3": "grades eh - testing 4"
+    "0": "grades eh - testing 1 "
   },
   "grade_subject": {
-    "0": "U.S. History",
-    "1": "U.S. History",
-    "2": "U.S. History",
-    "3": "U.S. History"
+    "0": "U.S. History"
   },
   "current_grade": {
-    "0": "A",
-    "1": "A",
-    "2": "C",
-    "3": "F"
+    "0": "A"
   },
   "number_missing_assignments": {
-    "0": 2,
-    "1": 0,
-    "2": 12,
-    "3": 20
+    "0": 2
   },
   "additional_notes": {
-    "0": NaN,
-    "1": NaN,
-    "2": NaN,
-    "3": NaN
+    "0": NaN
   }
 }

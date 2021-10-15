@@ -1,0 +1,2 @@
+my_email	student_id	student_first	student_last	parent_last	parent_first	parent_email	email_subject	grade_subject	current_grade	number_missing_assignments	additional_notes
+waddlewaddleanonanon@gmail.com	1	Alex	Smith	Smith	Max	itzelpz45@gmail.com	grades eh - testing 1 	U.S. History	A	2	
