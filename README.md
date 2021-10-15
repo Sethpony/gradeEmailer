@@ -6,3 +6,4 @@ automates sending grades out from a worksheet
 - how to test?
 - secure the credentials - security?
 - how to document and relay to turn on and off allow access for apps
+- how quickly can these messages be sent? need to wait? how long to flag as spam?
